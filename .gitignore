@@ -1,0 +1,16 @@
+# temp 
+tmp/
+output/
+build/
+
+# clion
+.idea/
+*.xml
+
+# eclipse
+.settings/
+.project
+.cproject
+
+# bazel
+bazel-*

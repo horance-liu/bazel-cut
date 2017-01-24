@@ -1,0 +1,6 @@
+#ifndef H21E7D6D3_9F51_40E8_957C_72D0DBF81D69
+#define H21E7D6D3_9F51_40E8_957C_72D0DBF81D69
+
+using Amount = unsigned int;
+
+#endif
