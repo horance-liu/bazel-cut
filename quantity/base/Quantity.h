@@ -6,7 +6,7 @@
 template <typename Unit>
 struct Quantity
 {
-    Quantity(const Amount amount, const Unit unit);
+    Quantity(Amount amount, Unit unit);
 
     bool operator==(const Quantity&) const;
     bool operator!=(const Quantity&) const;

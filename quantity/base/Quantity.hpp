@@ -1,7 +1,7 @@
 #include "quantity/base/Quantity.h"
 
 template <typename Unit>
-Quantity<Unit>::Quantity(const Amount amount, const Unit unit)
+Quantity<Unit>::Quantity(Amount amount, Unit unit)
   : amountInBaseUnit(unit * amount)
 {
 }
